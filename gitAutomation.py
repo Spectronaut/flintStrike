@@ -34,7 +34,7 @@ if __name__ == "__main__":
     login()
     time.sleep(1)
     createNewRepo()
-    time.sleep(1)
+    time.sleep(5)
 
 
 
