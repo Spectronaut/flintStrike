@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Comment please:    "
+echo "Comment please:"
 read comment
 git add .
 git commit -m "$comment"
