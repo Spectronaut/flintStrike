@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd ~
-pathToScript="$HOME/ProjectsRepo/flintStrike/create.py"
-pathToAutomationScript="$HOME/ProjectsRepo/flintStrike/gitAutomation.py"
+pathToScript="$HOME/flintStrike/create.py"
+pathToAutomationScript="$HOME/flintStrike/gitAutomation.py"
 output=$(python3 $pathToScript $1)
 echo "The output of this sript is $output"
 cd $output
