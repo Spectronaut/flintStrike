@@ -2,7 +2,7 @@
 
 cd ~
 pathToScript="$HOME/flintStrike/create.py"
-pathToAutomationScript="$HOME//flintStrike/gitAutomation.py"
+pathToAutomationScript="$HOME/flintStrike/gitAutomation.py"
 output=$(python3 $pathToScript $1)
 echo "The output of this sript is $output"
 cd $output
@@ -30,8 +30,8 @@ echo "upgrade pip..."
 say "upgrade pip..."
 sleep 3s
 pip3 install selenium
-echo "Initiating GitHub Repo..."
-say "Initiating GitHub Repo..."
+echo "Initiating GitHub Reepo..."
+say "Initiating GitHub Reepo..."
 sleep 3s
 python3 $pathToAutomationScript $2 $3 $1
 git remote add origin https://github.com/Spectronaut/$1.git
@@ -43,7 +43,7 @@ echo "Initial Commit Complete"
 say "Initial Commit Complete"
 sleep 3s
 git push -u origin main
-echo "Complete. Opening editor... Stay tight dog... ciao."
-say "Complete. Opening editor... Stay tight dog... ciao."
 sleep 3s
 code .
+echo "Complete. Opening editor... Stay tight dog... ciao."
+say "Complete. Opening editor... Stay tight dog... ciao."
