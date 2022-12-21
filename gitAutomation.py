@@ -28,7 +28,7 @@ def createNewRepo():
     elem.send_keys(reponame)
     elem = driver.find_element(By.XPATH, "/html/body/div[1]/div[5]/main/div/form/div[5]/div[2]/label/input").click()
     elem2 = driver.find_element(By.XPATH, "/html/body/div[1]/div[5]/main/div/form/div[5]/button")
-    elem2.click()
+    elem2.submit()
     
 if __name__ == "__main__":
     login()

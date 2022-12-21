@@ -18,8 +18,8 @@ source $1/bin/activate
 echo "$1 environment has been activated."
 say "$1 environment has been activated."
 sleep 3s
-echo "Initiating git... One monment please."
-say "Initiating git... One monment please."
+echo "Initiating git..."
+say "Initiating git..."
 git init
 sleep 3s
 echo "Installing dependencies..."
@@ -43,7 +43,7 @@ echo "Initial Commit Complete"
 say "Initial Commit Complete"
 sleep 3s
 git push -u origin main
-echo "Complete. Opening editor. Stay tight dog, ciao."
-say "Complete. Opening editor. Stay tight dog, ciao."
+echo "Complete. Opening editor... Stay tight dog... ciao."
+say "Complete. Opening editor... Stay tight dog... ciao."
 sleep 3s
-code main.py
+code .
