@@ -7,6 +7,7 @@ output=$(python3 $pathToScript $1)
 echo "The output of this sript is $output"
 cd $output
 touch README.txt
+touch main.py
 echo "Creating Environment..."
 say "Creating Environment..."
 sleep 5s
@@ -42,5 +43,7 @@ echo "Initial Commit Complete"
 say "Initial Commit Complete"
 sleep 3s
 git push -u origin main
-echo "Complete."
-say "Complete."
+echo "Complete. Opening editor. Stay tight dog, ciao."
+say "Complete. Opening editor. Stay tight dog, ciao."
+sleep 3s
+code main.py
