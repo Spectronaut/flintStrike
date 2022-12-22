@@ -3,7 +3,7 @@ import sys
 
 def checkRepoLocations(projectName=None):
     home_directory = os.path.expanduser( '~' )
-    pathToProjects = home_directory + "/ProjectsRepoTest"
+    pathToProjects = home_directory + "/ProjectsRepo"
 
     def verifyProjectsRepo():
         try:
@@ -13,7 +13,7 @@ def checkRepoLocations(projectName=None):
             else:
                 # print("Could not find ProjectsRepo folder. Creating ProjectsRepo...\n")
                 os.mkdir(pathToProjects)
-                print("Success!")
+                # print("Success!")
         except Exception as e:
             print("Failed to create the ProjectsRepo folder. Here is why: \n" + str(e))
             return False
